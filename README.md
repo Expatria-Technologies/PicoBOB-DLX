@@ -1,4 +1,4 @@
-# PicoBOB-DLX for GRBLHAL and LinuxCNC via Remora
+# PicoBOB-DLX for GRBLHAL and LinuxCNC
 
 ![Logo](/readme_images/logo_sm.jpg)
 
