@@ -37,8 +37,6 @@ The default GRBLHAL builds for the PicoBOB include the following features that a
 
 In addition, the board has a USB micro connector for the 5V that is required for the BOB.  There are also pushbuttons for BOOT and RUN for easy programming using the RP2040's built-in UF2 bootloader.
 
-### Please note that the GRBLHAL and Remora builds for the PicoBOB DLX are still under development.
-
 ## PicoBOB Overview
 
 <img src="/readme_images/Board_Overview.jpg" width="300">
