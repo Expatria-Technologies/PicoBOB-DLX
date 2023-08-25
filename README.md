@@ -28,11 +28,10 @@ https://github.com/Expatria-Technologies/RT_Jog_Controller
 
 The DLX can be connected to a GRBLHAL host via Ethernet or USBC.  For LinuxCNC, the Ethernet connection is used with the Remora etherent component and the DLX acts as a hardware step generator to mitigate latency demands.
 
-The current work-in-progress version of the Remora RP2040-W5500 firmware is posted here:
+The current work-in-progress version of the Remora RP2040-W5500 firmware is posted here:  
 https://github.com/Expatria-Technologies/Remora-RP2040-W5500
 
-The most current version of the GRBLHAL RP2040 driver is posted here:
-
+The most current version of the GRBLHAL RP2040 driver is posted here:  
 https://github.com/Expatria-Technologies/RP2040
 
 The default GRBLHAL builds for the PicoBOB include the following features that are implemented in the RP2040 port of GRBLHAL:
