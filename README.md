@@ -51,7 +51,7 @@ Usage notes:
 
 Communication with GRBLHAL is accomplished via the USBC or Ethernet connections on the PicoBOB (not connected in above images).  A short USB cable is used to provide the required 5V for the BOB.  In addition, the BOB requires an external 12-24V supply.
 
-The Mach3 BOB shares the B axis direction signal with a spindle relay enable signal - only one can be used at a time.  Also on the PicoBOB, the stepper enable signal is modified in the GRBLHAL default map file so that it is used as the coolant output signal.  All of this is configurable by re-building the GRBLHAL firwmare.
+The Mach3 BOB shares the B axis direction signal with a spindle relay enable signal - only one can be used at a time.  Also on the PicoBOB, the stepper enable signal is modified in the GRBLHAL default map file so that it is used as the coolant output signal.  All of this is configurable by re-building the GRBLHAL firwmare.  In linuxcnc, the configuration is uploaded via tftp.
 
 <img src="/readme_images/B1boardpic.png" width="500">
 
