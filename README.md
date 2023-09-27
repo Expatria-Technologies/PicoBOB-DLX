@@ -28,6 +28,12 @@ https://github.com/Expatria-Technologies/RT_Jog_Controller
 
 The DLX can be connected to a GRBLHAL host via Ethernet or USBC.  For LinuxCNC, the Ethernet connection is used with the Remora etherent component and the DLX acts as a hardware step generator to mitigate latency demands.
 
+The current work-in-progress version of the Remora RP2040-W5500 firmware is posted here:  
+https://github.com/Expatria-Technologies/Remora-RP2040-W5500
+
+The most current version of the GRBLHAL RP2040 driver is posted here:  
+https://github.com/Expatria-Technologies/RP2040
+
 The default GRBLHAL builds for the PicoBOB include the following features that are implemented in the RP2040 port of GRBLHAL:
 
 1) Backlash Compensation.
@@ -43,9 +49,9 @@ In addition, the board has a USB micro connector for the 5V that is required for
 
 Usage notes:
 
-Communication with GRBLHAL on the PicoBOB is accomplished via the USBC connection on the PicoBOB (not connected in above images).  A short USB cable is used to provide the required 5V for the BOB.  In addition, the BOB requires an external 12-24V supply.
+Communication with GRBLHAL is accomplished via the USBC or Ethernet connections on the PicoBOB (not connected in above images).  A short USB cable is used to provide the required 5V for the BOB.  In addition, the BOB requires an external 12-24V supply.
 
-The Mach3 BOB shares the B axis direction signal with a spindle relay enable signal - only one can be used at a time.  Also on the PicoBOB, the stepper enable signal is modified in the GRBLHAL default map file so that it is used as the coolant output signal.  All of this is configurable by re-building the GRBLHAL firwmare.
+The Mach3 BOB shares the B axis direction signal with a spindle relay enable signal - only one can be used at a time.  Also on the PicoBOB, the stepper enable signal is modified in the GRBLHAL default map file so that it is used as the coolant output signal.  All of this is configurable by re-building the GRBLHAL firwmare.  In linuxcnc, the configuration is uploaded via tftp.
 
 <img src="/readme_images/B1boardpic.png" width="500">
 
