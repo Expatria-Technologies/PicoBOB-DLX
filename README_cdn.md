@@ -57,6 +57,10 @@ The Mach3 BOB shares the B axis direction signal with a spindle relay enable sig
 
 Above shows the PicoBOB B1 connected to the Mach3/LinuxCNC parallel BOB.
 
+YGANG pinout is as below:
+
+<img src="/readme_images/BOB_PINOUT_YGANG.png" width="500">
+
 ## Gecko Drive G540 support Overview
 By using a common "mini gender changer" the PicoBOB DLX can be adapted for use with a G540 4-AXIS Digital Step Drive.
 
